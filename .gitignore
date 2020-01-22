@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+db.sqlite3
+*.log
+lyg/lyg/
+*.pyc
+__pycache__/
+secret.py
+static/

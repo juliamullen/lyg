@@ -55,7 +55,8 @@ class Form extends Component {
   render() {
     const { name, message } = this.state;
     return (
-      <div className="column">
+      <section className="thread">
+        <article className="post">
         <form onSubmit={this.handleSubmit}>
           <div className="field">
             <label className="label">Name</label>
@@ -89,7 +90,8 @@ class Form extends Component {
             </button>
           </div>
         </form>
-      </div>
+      </article>
+      </section>
     );
   }
 }

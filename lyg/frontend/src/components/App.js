@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import DataProvider from "./DataProvider";
-import Table from "./Table";
+import Threads from "./Threads";
 import Form from "./Form";
 
 const App = () => (
-  <React.Fragment>
-    <DataProvider endpoint="api/post/"
-                      render={data => <Table data={data} />} />
+  <main>
+    <DataProvider endpoint="api/thread/"
+                      render={data => <Threads data={data} />} />
     <Form endpoint="api/post/" />
-  </React.Fragment>
+  </main>
 );
 
 const wrapper = document.getElementById("app");

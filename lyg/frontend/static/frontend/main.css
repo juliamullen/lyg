@@ -38,8 +38,8 @@ main {
 }
 
 .thread {
-  padding:10%;
-  margin:0 5% 5%;
+  padding:3rem;
+  margin:0 3rem 1.5rem;
   min-height:5vh;
   background-color:var(--thread-color);
   border-radius:30px;
@@ -52,7 +52,7 @@ main {
 
 .post {
   margin:3rem;
-  padding:3%;
+  padding:2rem;
   border-radius:10px;
   background-color:var(--post-color);
   filter:drop-shadow(1.3rem 1.3rem var(--comment-color));
@@ -62,7 +62,7 @@ main {
 .comment {
   color:var(--comment-color);
   border-bottom:3px solid var(--background-color);
-  margin-top:3%;
+  margin-top:.6rem;
 }
 
 /*

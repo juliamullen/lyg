@@ -19,7 +19,7 @@ class Post(models.Model):
 
   def save(self, *args, **kwargs):
     is_op = False
-    if not self.thread:
+    if not hasattr(self, 'thread'):
       thread = Thread(op=None)
       thread.save()
       self.thread_id = thread.pk
